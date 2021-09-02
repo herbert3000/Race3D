@@ -1,0 +1,51 @@
+// all of these must be defined, or the game may not run!
+
+gameName = "Race3D"
+
+
+//  If you want a menu item to appear in the small font, put
+//  a newline ("\n") in the string. For example:
+//    menuPlay = "New\nGame" 
+//  or 
+//    menuPlay = "New Game\n"
+
+
+menuPlay = "New Game"
+menuDemo = "Demo"
+menuHelp = "Instructions"
+menuOptions = "Options"
+menuKeyboard = "Redefine Keys"
+menuConsole = "Show Console"
+menuSpeed = "Speed"
+menuSound = "Sound"
+menuChooseTrack = "Choose Track"
+menuChooseCar = "Choose Car"
+menuBack = "[back]"
+
+keyNames   = {"Accelerate" "Brake" "Turn Left" "Turn Right"}
+carNames   = {"Ka" "Galaxy" "Escort" "Fiesta" "Mondeo"}
+speedNames = {"km/h" "mph" "m/s"}
+places     = {"1st" "2nd" "3rd" "4th" "5th" "6th"}
+
+console = "Console"
+loading = "Loading"
+time = "Time"
+lap = "Lap"
+go = "GO!"
+on = "on"
+off = "off"
+timeLeft = "Time Left: "
+minutes = "min"
+seconds = "sec"
+
+messageLastLap      = "Last Lap!"
+messageWrongWay     = "WRONG WAY!"
+messageDisqualified = "Disqualified Lap"
+messageDemo         = "DEMO MODE"
+messageStart        = "Press SPACE to start"
+messageLoading      = "Loading Race3D..."
+messageDoneLoading  = "Click to start Race3D"
+
+// sorry, help is hard to read.
+help = "Keys    Action\n\nArrows  Accelerate,\n        Brake, and\n        turn.\nesc, F1 Menu\n+       Bigger Screen\n-       Smaller Screen"
+
